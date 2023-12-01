@@ -1,7 +1,5 @@
 from ksuid import ksuid
-from decimal import Decimal
 import datetime
-from boto3.dynamodb.conditions import Key, Attr
 from botocore.exceptions import ClientError
 import logging
 
